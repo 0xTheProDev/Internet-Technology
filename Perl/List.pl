@@ -17,4 +17,10 @@ print $months[$month], "\n";
 my (@list, @rev);
 @list = (1 .. 6);
 @rev  = reverse @list;
-print @list, "\n", @rev, "\n";
+print "@list\n@rev\n";
+
+# Append new Element
+my (@arr1, @arr2);
+@arr1 = (1, 2, 6, 8, 9);
+@arr2 = (@arr1, 10);
+print "@arr2\n";
