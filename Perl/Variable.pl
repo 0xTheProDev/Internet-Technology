@@ -31,3 +31,8 @@ print "Value of \$data is $data\n";
     print "Inside the block, value of \$data is $data\n";
 }
 print "Value of \$data is still $data\n";
+
+# STDIN
+our $name;
+$name = <STDIN>;
+print "Hello, $name";
