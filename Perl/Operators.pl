@@ -1,6 +1,6 @@
 #! /usr/bin/perl
 
-# Arithmetic Operations
+## Arithmetic Operations
 # Power Operation
 print "2 ** 4 = ", 2 ** 4, "\n";
 
@@ -17,3 +17,12 @@ print "36 % 5 = ", 36 % 5, "\n";
 # Addition/Subtraction Operation
 print "5 * 4 + 2 = ", 5 * 4 + 2, "\n";
 print "10 / 2 - 2 = ", 10 / 2 - 2, "\n";
+
+## Boolean, Bitwise and Conditional work as expected, using 'lazy evaluation' method
+
+## String Operation
+# Concatenation
+print "Hello World,"." and You Too"."!\n";
+
+# Repeatation
+print "Go!"x3, "\n";
